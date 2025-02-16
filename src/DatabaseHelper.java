@@ -9,10 +9,10 @@ public class DatabaseHelper {
 
     public static void main(String[] args) {
         try {
-            // Load JDBC Driver (pastikan ini ada!)
+
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Coba koneksi ke database
+            // coba koneksi ke db
             Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
             System.out.println("Koneksi ke database berhasil!");
             conn.close();

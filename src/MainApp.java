@@ -15,11 +15,11 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Restaurant Reservation System");
 
-        // Create buttons with modern styling
+        // buttons
         Button loginButton = new Button("Login");
         Button registerButton = new Button("Register");
 
-        // Styling the buttons
+        // styling
         loginButton.setStyle("-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10 20; -fx-background-radius: 5;");
         registerButton.setStyle("-fx-background-color: #008CBA; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10 20; -fx-background-radius: 5;");
 
@@ -33,14 +33,14 @@ public class MainApp extends Application {
             register.show();
         });
 
-        // Layout with modern styling
+        // layout
         VBox layout = new VBox(20);
         layout.setAlignment(Pos.CENTER);
         layout.setPadding(new Insets(20));
         layout.setStyle("-fx-background-color: #f4f4f4;");
         layout.getChildren().addAll(loginButton, registerButton);
 
-        // Scene with a modern font
+        // scene
         Scene scene = new Scene(layout, 550, 450);
         scene.setFill(Color.WHITE);
 

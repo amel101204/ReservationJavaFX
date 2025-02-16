@@ -15,14 +15,14 @@ public class Register {
         Stage stage = new Stage();
         stage.setTitle("Register");
 
-        // Labels
+        // labels
         Label userLabel = new Label("Username:");
         Label passLabel = new Label("Password:");
         Label confirmPassLabel = new Label("Confirm Password:");
         Label errorLabel = new Label();
         errorLabel.setStyle("-fx-text-fill: red;");
 
-        // TextFields
+        // textFields
         TextField userField = new TextField();
         PasswordField passField = new PasswordField();
         PasswordField confirmPassField = new PasswordField();
