@@ -1,0 +1,40 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "DatabaseHelper",
+			"request": "launch",
+			"mainClass": "DatabaseHelper",
+			"projectName": "ReservationJavaFX_5ed8a2fa"
+		},
+		{
+			"type": "java",
+			"name": "MainApp",
+			"request": "launch",
+			"mainClass": "MainApp",
+			"projectName": "ReservationJavaFX_5ed8a2fa",
+			"classPaths": [
+				"lib/mysql-connector-j-9.2.0.jar"
+			]
+		},
+		{
+			"type": "java",
+			"name": "Launch Current File",
+			"request": "launch",
+			"mainClass": "${file}",
+			"classPaths": [
+				"lib/mysql-connector-j-9.2.0.jar"
+			]
+		},
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "App",
+			"classPaths": [
+				"lib/mysql-connector-j-9.2.0.jar"
+			]
+		}
+	]
+}
