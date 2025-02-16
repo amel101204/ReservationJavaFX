@@ -1,0 +1,50 @@
+CREATE DATABASE restaurant_db;
+
+USE restaurant_db;
+
+CREATE TABLE reservations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    table_number INT NOT NULL
+    );
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+    );
+
+
+INSERT INTO users (username, password) VALUES
+    ('user1', 'password1'),
+    ('user2', 'password2'),
+    ('user3', 'password3'),
+    ('user4', 'password4'),
+    ('user5', 'password5');
+    ('admin', 'pass123')
+
+CREATE TABLE tables (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    table_number INT UNIQUE NOT NULL,
+    status ENUM('available', 'reserved') DEFAULT 'available'
+);
+
+INSERT INTO tables (table_number, status) VALUES
+(1, 'available'),
+(2, 'available'),
+(3, 'available'),
+(4, 'available'),
+(5, 'available'),
+(6, 'available'),
+(7, 'available'),
+(8, 'available'),
+(9, 'available'),
+(10, 'available'),
+(11, 'available'),
+(12, 'available'),
+(13, 'available'),
+(14, 'available'),
+(15, 'available');
+
+
+
