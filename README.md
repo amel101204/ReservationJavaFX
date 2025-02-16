@@ -1,7 +1,11 @@
-## Introdução
+## Sistem Reservasi 
 
-Seja bem vindo!
-Se você curtiu a extensão, não esqueça de deixar uma avaliação!
+Fitur user
+- Login
+- Register
+- Tambah reservasi
 
-Siga o canal no YouTube:
-- Academia dos Devs
+Fitur admin
+- Login
+- Edit reservasi
+- Delete reservasi
